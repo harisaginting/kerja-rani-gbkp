@@ -396,7 +396,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top center;
+    background: url("./bg-1.jpg") top center;
     background-size: cover;
     position: relative;
   }
@@ -463,15 +463,21 @@ body {
     display: none;
   }
 
-  #container-list-lelang{
+  #frame-list-lelang{
     width: 100%;
     min-height: 500px;
     max-height: 500px;
-    overflow-y: scroll;
-    border: 2px solid #E79519 ;
+    border: 2px solid #E79519;
     transition: all ease-in-out 0.3s;
     background: #fff;
     border-radius: 15px;
+    padding-top : 0px !important;
+    overflow-y: hidden;
+  }
+
+  #container-newest{
+    max-height: 500px;
+    overflow-y: scroll;
   }
 
 
@@ -550,6 +556,7 @@ body {
   section {
     padding: 60px 0;
     overflow: hidden;
+    min-height: 670px;
   }
   
   .section-title {
@@ -590,6 +597,16 @@ body {
   /*--------------------------------------------------------------
   # About
   --------------------------------------------------------------*/
+  #about{
+    background: url("./bg-4.jpeg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  #about-text{
+    min-height: 450px;
+    background-color: #ffffffd5;
+    border-radius: 15px;
+  }
   .about .content h3 {
     font-weight: 700;
     font-size: 28px;
@@ -656,16 +673,24 @@ body {
   #counts{
     min-height: 650px;
   }
+  #lelang-lelang{
+    background: url("./bg-5.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
   
   /*--------------------------------------------------------------
   # ulih-rani
   --------------------------------------------------------------*/
+  #ulih-rani{
+   
+  }
   .ulih-rani .icon-box {
     text-align: center;
     border: 2px solid #333;
     padding: 30px 20px;
     transition: all ease-in-out 0.3s;
-    background: #fff;
+    /* background: #fff; */
     border-radius: 15px;
   }
 
@@ -714,7 +739,8 @@ body {
   # Cta
   --------------------------------------------------------------*/
   .cta {
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(174, 174, 174, 0.5));
+    /* background: linear-gradient(rgba(174, 174, 174, 0.5), rgba(255, 255, 255, 0.5)), url("./logo-kerja-rani.png") fixed center center; */
     background-size: cover;
     padding: 60px 0;
   }
@@ -967,12 +993,12 @@ body {
   }
   
   .counts .content .count-box span {
-    font-size: 36px;
+    font-size: 32px;
     line-height: 30px;
     display: block;
     font-weight: 700;
     color: #151515;
-    margin-left: 50px;
+    margin-left: 50px; 
   }
   
   .counts .content .count-box p {
