@@ -1,4 +1,4 @@
-<img src="./assets/logo-kerja-rani.jpg" width="250">
+<img src="./assets/logo-kerja-rani.jpg" width="177">
 
 # <img src="./assets/logo-gbkp.png" width="28"> Kerja Rani GBKP Runggun Tambun #
 Front End Sederhana untuk keperluan kerja rani GBKP,
@@ -10,5 +10,6 @@ file [spreadsheet](https://docs.google.com/spreadsheets/d/1F5nF_1Q041UqRMJ99F6Sw
 open terminal and run
 - ***```npm install http-server```***
 - ***```npx http-server -p 3000```***
+open localhost:3000 on browser
 
 ### [PREVIEW](https://harisaginting.github.io/kerja-rani-gbkp/) ###
