@@ -463,19 +463,8 @@ body {
     display: none;
   }
 
-  #frame-list-lelang{
-    width: 100%;
+  #container-newest, .container-higest{
     min-height: 500px;
-    max-height: 500px;
-    border: 2px solid #E79519;
-    transition: all ease-in-out 0.3s;
-    background: #fff;
-    border-radius: 15px;
-    padding-top : 0px !important;
-    overflow-y: hidden;
-  }
-
-  #container-newest{
     max-height: 500px;
     overflow-y: scroll;
   }
