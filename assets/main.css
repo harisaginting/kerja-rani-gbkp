@@ -463,12 +463,6 @@ body {
     display: none;
   }
 
-  #container-newest, .container-higest{
-    min-height: 500px;
-    max-height: 500px;
-    overflow-y: scroll;
-  }
-
 
   #hero h1 span {
     color: #E79519;
@@ -553,6 +547,18 @@ body {
   }
   
   .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .target-title {
     font-size: 14px;
     font-weight: 500;
     padding: 0;
@@ -677,7 +683,7 @@ body {
   .ulih-rani .icon-box {
     text-align: center;
     border: 2px solid #d9d9d9;
-    padding: 30px 20px;
+    padding: 10px 20px;
     transition: all ease-in-out 0.3s;
     /* background: #fff; */
     border-radius: 15px;
@@ -688,7 +694,7 @@ body {
   }
 
   .ulih-rani .icon-box strong {
-    font-size: 24px;
+    font-size: 16px;
   }
   
   .ulih-rani .icon-box .icon i {
